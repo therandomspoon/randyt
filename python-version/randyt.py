@@ -7,9 +7,9 @@ import threading
 main = "185.27.134.55"
 configmain = "185.27.134.140"
 value = 'main'
-value = 'dbconfigmain'
-print('main =', db["main"])
-print('mainconfig =', db['configmain'])
+value2 = 'dbconfigmain'
+print('main =', value)
+print('mainconfig =', value2)
 print('accessing database')
 print('mainframe')
 print(' ERORR 502 invaid response')
@@ -34,7 +34,6 @@ done = True
 time.sleep(0.5)
 os.system('clear')
 import youtube_dl
-keys = db.keys()
 print('please paste video url')
 url=input()
 ydl_opts = {}
