@@ -28,7 +28,6 @@ def animate():
 
 t = threading.Thread(target=animate)
 t.start()
-
 time.sleep(3)
 done = True
 time.sleep(0.5)
