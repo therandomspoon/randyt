@@ -1,14 +1,13 @@
 from __future__ import unicode_literals
-from replit import db
 import os
 import time
 import sys
 import itertools
 import threading
-db["main"] = "185.27.134.55"
-db['configmain'] = "185.27.134.140"
-value = db["main"]
-value = db["configmain"]
+main = "185.27.134.55"
+configmain = "185.27.134.140"
+value = 'main'
+value = 'dbconfigmain'
 print('main =', db["main"])
 print('mainconfig =', db['configmain'])
 print('accessing database')
